@@ -1,0 +1,51 @@
+# --- General ---
+# IDE and editor folders
+.idea/
+.vscode/
+
+
+
+
+# --- Python / Django Backend ---
+# Virtual environment
+venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Django database file
+*.sqlite3
+db.sqlite3
+
+# Django media and static files (often handled by a separate service in production)
+/media/
+/static/
+
+# Log files
+*.log
+
+
+# --- Node.js / Vite / React Frontend ---
+# Node modules - this is the most important one for the frontend
+/frontend/node_modules/
+
+# Vite build output directory
+/frontend/dist/
+
+# Vite cache
+/frontend/.vite/
+
+# Log files
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# Local environment variables
+/frontend/.env.local
+/frontend/.env.*.local
+
+
+*.env 
